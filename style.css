@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.container {
+    width: 1280px;
+    height: 800px;
+    margin: auto;
+    display: flex;
+}
+
+.left {
+    width: 830px;
+    height: 800px;
+    background-color: #ffedf7;
+}
+.left-content {
+    width: 445px;
+    height: 704px;
+    margin: 48px 0 48px 80px;
+}
+
+.timer {
+    margin-bottom: 110px;
+}
+
+.timer-detail {
+    display: flex;
+}
+
+.timer-num {
+    width: 100%;
+    height: 206px;
+    font-size: 176px;
+    line-height: 206px;
+}
+
+.timer-text {
+    height: 26px;
+    font-size: 24px;
+    margin: 0 33px 0 16px;
+    line-height: 26px;
+}
+
+ul {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 32px;
+    border-bottom: 1px solid #cbc7d9;
+    margin-bottom: 9px;
+}
+ul li div {
+    display: flex;
+    flex-direction: row;
+}
+ul li div p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.more {
+    text-align: right;
+    margin: 0;
+}
+
+.right {
+    width: 450px;
+    height: 800px;
+    background-color: #003164;
+}
+
+.ft-italic {
+    font-style: italic;
+}
+.clr-pink {
+    color: #ffedf7;
+}
+.clr-red {
+    color: #ff4384;
+}
+.clr-blue {
+    color: #003164;
+}
+.clr-white {
+    color: #ffffff;
+}
+
+.pomo-logo {
+    font-family: "Futura", "Nunito Sans";
+    font-size: 24px;
+}
+
+/* 176 24 16  */
+
+/* Rules for sizing the icon. */
+.material-icons.md-12 {
+    font-size: 12px;
+}
+.material-icons.md-18 {
+    font-size: 18px;
+}
+.material-icons.md-24 {
+    font-size: 24px;
+}
+.material-icons.md-36 {
+    font-size: 36px;
+}
+.material-icons.md-48 {
+    font-size: 48px;
+}
+.material-icons.md-96 {
+    font-size: 96px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    padding: 16px;
+    margin-bottom: 145px;
+}
+
+input {
+    flex-grow: 2;
+    padding: 0;
+    border: 0;
+    /* width: 100%;
+    font-size: 16px; */
+}
+
+input:focus {
+    outline: none;
+}
+
+.btn-white {
+    height: 24px;
+    border: none;
+    padding: 0;
+    background-color: #ffffff
+}
+
+.btn-pink {
+    height: 24px;
+    border: none;
+    padding: 0;
+    background-color: #ffedf7
+}
+
+input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #ff4384;
+    opacity: 1; /* Firefox */
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #ff4384;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #ff4384;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+}

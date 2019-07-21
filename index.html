@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pomodoro</title>
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Roboto|Nunito+Sans">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="left-content">
+                <!-- add new todo -->
+                <form>
+                    <input type="text" name="" placeholder="ADD A NEW MISSION..." class="clr-red">
+                    <button class="btn-white">
+                        <i class="material-icons md-24 clr-red">add</i>
+                    </button>
+                </form>
+                <!-- timer -->
+                <div class="timer">
+                    <div class="timer-detail">
+                        <i class="material-icons md-48 clr-blue">radio_button_unchecked</i>
+                        <p class="timer-text clr-blue">The XXX THING TO DO TODAY</p>
+                        <i class="material-icons md-12 clr-red">radio_button_unchecked</i>
+                    </div>
+                    <div class="timer-num clr-red">25:00</div>
+                </div>
+                <!-- pending -->
+                <ul class="clr-blue">
+                    <li>
+                        <div>
+                            <i class="material-icons md-24">radio_button_unchecked</i>
+                            <p class="">The FIRST THING TO DO TODAY</p>
+                        </div>
+                        <button class="btn-pink">
+                            <i class="material-icons md-24">play_circle_outline</i>
+                        </button>
+                    </li>
+                    <li>
+                        <div>
+                            <i class="material-icons md-24">radio_button_unchecked</i>
+                            <p class="">The FIRST THING TO DO TODAY</p>
+                        </div>
+                        <button class="btn-pink">
+                            <i class="material-icons md-24">play_circle_outline</i>
+                        </button>
+                    </li>
+                    <li>
+                        <div>
+                            <i class="material-icons md-24">radio_button_unchecked</i>
+                            <p class="">The FIRST THING TO DO TODAY</p>
+                        </div>
+                        <button class="btn-pink">
+                            <i class="material-icons md-24">play_circle_outline</i>
+                        </button>
+                    </li>
+                </ul>
+
+                <p class="more clr-red">MORE</p>
+            </div>
+        </div>
+        <div class="right clr-white">
+            <i class="material-icons md-36">list</i>
+            <i class="material-icons md-36">insert_chart</i>
+            <i class="material-icons md-36">library_music</i>
+            <i class="material-icons md-96">play_circle_filled</i>
+            <i class="material-icons md-24">stop</i>
+            <p class="pomo_logo">POMODORO</p>
+        </div>
+    </div>
+</body>
+</html>
